@@ -12,6 +12,6 @@ namespace Models
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Mobile { get; set; }
-        public int Age { get; set; }
+        public DateTime DateofBirth { get; set; }
     }
 }
